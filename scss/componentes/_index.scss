@@ -1,0 +1,118 @@
+
+/* TITULO */
+h1{
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* TITULO2 */
+h2{
+    color: blue;
+   /* background-color: green;*/
+    text-align: center;
+    font-size: 20pt;
+}
+
+/* PARRAFO */
+p{
+    color: black;
+    /* background-color: indigo;
+    font-size: 12pt;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700; */
+    text-align: justify;
+}
+
+#estiloIndex{
+    text-align: center;  
+}
+
+.estilo2{
+    color: blueviolet;
+    text-align: justify;
+}
+
+#estilo3{
+    color:crimson
+}
+
+#estilo4{
+    color:darkmagenta
+}
+
+.cuadro{
+    display:block;
+    margin:auto;
+}
+.cuadro2{
+    display:block;
+    margin:auto;
+    
+}
+
+.cuadro2:hover{
+    transform: scale(1.1);
+}
+
+
+.cuadro3{
+    display:block;
+    margin:auto;
+    
+}
+
+.cuadro3:hover{
+    transform: skewX(20deg);
+}
+
+.cuadro1{
+    display:block;
+    margin:auto;
+    
+}
+
+.cuadro1:hover{
+    transform: rotateZ(90deg);
+}
+
+
+
+/* MENU */
+
+
+
+ul {
+    display:flex;  
+    justify-content: center;  
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-decoration: none;
+}
+
+li{
+    padding: 15px;
+    color: black;
+}
+
+li:hover{
+    background-color: white;
+}
+
+/* LINKS */
+/* LINKS SIN VISITAR */
+a:link{
+    color:black;
+    text-decoration: none;
+}
+
+/* LINKS VISTOS */
+a:visited{
+    color: black;
+}
+
+/* LINKS AL POSICIONAR */
+a:hover{
+    color: black;
+}
