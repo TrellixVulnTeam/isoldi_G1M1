@@ -217,8 +217,7 @@ p {
   background-position: center;
   transition: -webkit-transform .2s;
   transition: transform .2s;
-  /* background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg); */
-  background-image: url(../../img/isoldi.jpeg); }
+  background-image: url(https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png); }
 
 .firmalar {
   background: #f1f4f5c7; }
