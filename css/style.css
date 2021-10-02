@@ -96,6 +96,15 @@ footer {
   margin-bottom: 369px;
   margin-top: -30px; }
 
+.img2 {
+  margin-top: -50px;
+  margin-left: 1220px;
+  display: flex;
+  height: 90px;
+  width: 90px;
+  background-size: cover;
+  justify-content: center; }
+
 section {
   padding-top: 4rem;
   padding-bottom: 5rem;
@@ -462,3 +471,32 @@ a:visited {
 /* LINKS AL POSICIONAR */
 a:hover {
   color: black; }
+
+section {
+  padding: 10px 0; }
+
+.firma-resim3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  /* background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg); */
+  background-image: url(../../img/requisitos.jpg); }
+
+.firma-resim2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  /* background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg); */
+  background-image: url(../../img/historia.jpg); }
